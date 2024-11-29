@@ -8,7 +8,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
         <div className="flex-shrink-0 flex items-center">
   <img 
-    src="src/assets/logo.png" 
+    src="/assets/logo.png" 
     alt="AlleChain Logo" 
     className="w-6 h-6 mr-2" 
   />
