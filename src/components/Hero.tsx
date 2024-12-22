@@ -40,7 +40,7 @@ export function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-3xl sm:text-6xl font-bold text-white mb-4">
-        Revolutionizing Live Entertainment
+          Revolutionizing Live Entertainment
         </h1>
         <p className="text-xl text-gray-200 mb-12 max-w-3xl mx-auto">
           Experience the future of music with AlleChain. Our decentralized platform brings you
@@ -49,7 +49,7 @@ export function Hero() {
         </p>
 
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-col sm:flex-row">
             <input
               type="email"
               value={email}
@@ -60,7 +60,7 @@ export function Hero() {
             />
             <button
               type="submit"
-              className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors"
+              className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors mt-2 sm:mt-0"
             >
               Join Waitlist
             </button>
