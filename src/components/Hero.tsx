@@ -23,7 +23,7 @@ export function Hero() {
       setEmail(''); // Reset email input field
     } catch (error) {
       console.error('Failed to send email:', error);
-      alert('Thank you for signing up! You will receive updates from us.');
+      alert('Thank you Subscribing! You will receive updates from us.');
     }
   };
 
@@ -62,7 +62,7 @@ export function Hero() {
               type="submit"
               className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors mt-2 sm:mt-0"
             >
-              Join Waitlist
+              Subscribe
             </button>
           </div>
         </form>
